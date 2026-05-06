@@ -17,30 +17,9 @@ A command-line expense splitting application built in Core Java, inspired by app
 - Greedy Algorithm (settlement calculation)
 - Scanner for CLI input
 
-## Project Structure
-```
-ExpenseSplitter/
-├── src/
-│   └── com/
-│       └── expensesplitter/
-│           ├── Person.java             # Member model with balance tracking
-│           ├── Expense.java            # Expense model
-│           ├── Group.java              # Core logic — split, balance, settle
-│           └── ExpenseSplitterApp.java # Main CLI interface
-└── README.md
-```
 
-## How to Run
 
-### Step 1 — Compile
-```bash
-javac -d out src/com/expensesplitter/*.java
-```
 
-### Step 2 — Run
-```bash
-java -cp out com.expensesplitter.ExpenseSplitterApp
-```
 
 ## Sample Usage
 ```
